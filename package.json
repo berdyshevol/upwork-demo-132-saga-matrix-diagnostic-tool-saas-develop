@@ -1,0 +1,34 @@
+{
+  "name": "upwork-demo-132-saga-matrix-diagnostic-tool-saas-develop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "playwright test --reporter=line"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "better-sqlite3": "^11.8.1",
+    "recharts": "^2.15.0",
+    "@react-pdf/renderer": "^4.1.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/better-sqlite3": "^7.6.12",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["better-sqlite3", "sharp"]
+  }
+}
